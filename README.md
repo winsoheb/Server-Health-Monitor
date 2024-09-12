@@ -1,2 +1,12 @@
-# Server-Health-Monitor
-Build a script that automates the health monitoring of Linux servers. This script will regularly check key system metrics such as CPU usage, memory consumption, disk usage, and network activity. You can add email or SMS alerts in case any thresholds are crossed, ensuring proactive system management.
+# Server Health Monitor
+This script automates the process of monitoring server health by checking CPU, memory, and disk usage. It can send email alerts if thresholds are crossed.
+
+## Features
+- Monitor CPU, memory, and disk usage.
+- Alerts for high disk usage.
+- Customizable thresholds.
+
+## How to Use
+1. Clone the repository.
+2. Modify thresholds in the script.
+3. Run the script manually or set up a cron job.
